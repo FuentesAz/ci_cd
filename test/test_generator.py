@@ -11,7 +11,7 @@ def test_password_length():
 
 def test_password_is_string():
     password = generate_password(10)
-    asser isistance(password, str)
+    assert isinstance(password, str)
 
 def test_has_uppercase():
     assert has_uppercase("Abc") is True
